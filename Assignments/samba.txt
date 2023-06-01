@@ -1,0 +1,9 @@
+1  apt-get update
+2  apt-get install samba
+3  service smbd start
+4  service smbd status
+5  mk dir sambaDemoCS8
+6  mkdir sambaDemoCS8
+7  vi /etc/samba/smb.cof
+8  ifconfig
+9  chmod 0+rwx bscs8
